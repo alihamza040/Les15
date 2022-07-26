@@ -1,0 +1,101 @@
+body {
+  background-color:white;
+  color:black;
+  border:black solid 1px;
+}
+
+h1
+{
+  display:inline-block;
+  border:1px solid white;
+  border-radius:10px;
+  padding:5px;
+  background-color:black;
+  color:white;
+}
+
+h1:hover {
+  background-color:white;
+  color:black ;
+}
+
+header {
+  background-color:black;
+  color:white;
+  text-align:center;
+  border: 5px solid white;
+  padding: 0px;
+  font-size:12px;
+  font-weight:bold;
+  font-variant: small-caps;
+}
+
+
+li
+{
+
+display: inline-block;
+font-size:18px;
+font-weight:bold;
+font-variant: small-caps;
+padding: 5px 15px 5px 15px;
+margin-right:12px;
+background-color:black;
+color:white;
+border:1px solid black;
+border-radius: 10px;
+
+}
+
+li:hover
+{
+  color:black;
+  background-color:white;
+  font-size:18px;
+  box-shadow:1px 1px 1px 1px black;
+}
+
+ul
+{
+  background-color:white;
+  text-align:left;
+  margin-top:4px;
+  padding:15px;
+  margin-bottom:0px;
+
+}
+
+a:link
+{
+  text-decoration:none;
+}
+
+a:visited
+{
+  color:inherit;
+}
+
+input[type=text], textarea, input[type=e-mail], input[type=submit]
+{
+display:block;
+box-sizing:border-box;
+width:400px;
+margin:5px 0px;
+}
+
+input[type=text], textarea, button, input[type=submit]
+{
+  border:solid black 2px;
+  box-shadow:1px 1px 1px 1px black;
+}
+
+textarea
+{
+  height:100px;
+}
+
+input[type=submit]:hover
+{
+color:white;
+background-color:black;
+}
