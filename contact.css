@@ -75,18 +75,20 @@ a:visited
   color:inherit;
 }
 
-input[type=text], textarea, input[type=e-mail], input[type=submit]
+input[type=text], textarea, input[type=e-mail], input[type=submit], label, fieldset
 {
 display:block;
 box-sizing:border-box;
-width:400px;
+width:755px;
 margin:5px 0px;
+margin:auto;
 }
 
 input[type=text], textarea, button, input[type=submit]
 {
   border:solid black 2px;
   box-shadow:1px 1px 1px 1px black;
+
 }
 
 textarea
@@ -98,4 +100,15 @@ input[type=submit]:hover
 {
 color:white;
 background-color:black;
+}
+
+footer
+{
+  display:inline-block;
+  text-align:left;
+  background-color:black;
+  color:white;
+  bottom:0px;
+  position:relative;
+  width:100%;
 }

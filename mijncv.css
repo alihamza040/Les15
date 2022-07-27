@@ -89,11 +89,22 @@ table, td, th
   border-collapse:collapse;
   border:solid black 2px;
   padding:15px;
-  margin:left;
-  width:50%;
+  margin:auto;
+  width:72%;
 }
 
 #table2
 {
   margin-bottom:20px;
+}
+
+footer
+{
+  display:inline-block;
+  text-align:left;
+  background-color:black;
+  color:white;
+  bottom:0px;
+  position:relative;
+  width:100%;
 }
